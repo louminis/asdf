@@ -14,7 +14,7 @@
     'use strict';
 
     // Your code here...
-    room.rainbow.putPinkTheme === undefined ? 
+    room.rainbow === undefined ?
 		console.log("Module Rainbow Not Loaded"):
 		room.rainbow.putPinkTheme();
 
