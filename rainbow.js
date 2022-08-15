@@ -26,7 +26,7 @@
 		document.styleSheets[(document.styleSheets.length -1 )].cssRules[1254].style.color="black";
 		document.styleSheets[(document.styleSheets.length -1 )].cssRules[1761].style.color="black";
 		document.styleSheets[(document.styleSheets.length -1 )].cssRules[1309].style.color="#000000";
-		setTimeout( ()=>{document.getElementsByName("ext_post")[0].style.backgroundColor="#cd9897";}, 150);
+		setTimeout( ()=>{document.getElementsByClassName("form-control room-submit-btn")[0].style.backgroundColor="#cd9897";}, 150);
 		document.getElementsByClassName("panel-hide is-host")[0].style.backgroundColor="#cd9897";
 	}
 
@@ -41,7 +41,7 @@
 		document.styleSheets[(document.styleSheets.length -1 )].cssRules[1254].style.color="20B2AA";
 		document.styleSheets[(document.styleSheets.length -1 )].cssRules[1761].style.color="20B2AA";
 		document.styleSheets[(document.styleSheets.length -1 )].cssRules[1309].style.color="#20B2AA";
-		setTimeout( ()=>{document.getElementsByName("ext_post")[0].style.backgroundColor="#3a3e42";}, 150);
+		setTimeout( ()=>{document.getElementsByClassName("form-control room-submit-btn")[0].style.backgroundColor="#3a3e42";}, 150);
 		document.getElementsByClassName("panel-hide is-host")[0].style.backgroundColor="#3a3e42";
 	}
 
@@ -49,7 +49,7 @@
 	room.rainbow.putRedTheme = () => {
 		document.getElementsByClassName("message_box_effect_wraper")[0].style.backgroundColor="#302424";
 		document.getElementsByName("message")[0].style.backgroundColor="#422e2e";
-		setTimeout( ()=>{document.getElementsByName("ext_post")[0].style.backgroundColor="#422e2e";}, 150);
+		setTimeout( ()=>{document.getElementsByClassName("form-control room-submit-btn")[0].style.backgroundColor="#422e2e";}, 150);
 		document.styleSheets[(document.styleSheets.length -1 )].cssRules[958].style.color="white";
 		document.styleSheets[(document.styleSheets.length -1 )].cssRules[1193].style.color="white";
 	}
