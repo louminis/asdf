@@ -27,7 +27,7 @@
 		document.styleSheets[(document.styleSheets.length -1 )].cssRules[1761].style.color="black";
 		document.styleSheets[(document.styleSheets.length -1 )].cssRules[1309].style.color="#000000";
 		setTimeout( ()=>{document.getElementsByClassName("form-control room-submit-btn")[0].style.backgroundColor="#cd9897";}, 150);
-		document.getElementsByClassName("panel-hide is-host")[0].style.backgroundColor="#cd9897";
+		document.getElementById("setting_pannel").style.backgroundColor="#cd9897";
 	}
 
 
@@ -42,7 +42,7 @@
 		document.styleSheets[(document.styleSheets.length -1 )].cssRules[1761].style.color="20B2AA";
 		document.styleSheets[(document.styleSheets.length -1 )].cssRules[1309].style.color="#20B2AA";
 		setTimeout( ()=>{document.getElementsByClassName("form-control room-submit-btn")[0].style.backgroundColor="#3a3e42";}, 150);
-		document.getElementsByClassName("panel-hide is-host")[0].style.backgroundColor="#3a3e42";
+		document.getElementById("setting_pannel").style.backgroundColor="#3a3e42";
 	}
 
 
