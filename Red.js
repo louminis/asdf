@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         pink
+// @name         Red
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  make Red 
